@@ -19,6 +19,14 @@ h1 {
     color: #ff8533;
 }
 
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
 canvas {
     background: #f0f0f0;
     display: block;
@@ -32,7 +40,8 @@ canvas {
     background: #ff8533;
     color: white;
     border-radius: 20px;
-    height: 100px;
+    height: 70px;
+    font-size: 20px;
 }
 
 .btn:focus {
@@ -40,7 +49,7 @@ canvas {
 }
 
 .btn:hover {
-    background: #222;
+    background: orange;
 }
 
 .btn:active {
