@@ -46,16 +46,12 @@ canvas {
     font-size: 20px;
 }
 
-.btn:focus {
-    outline: 0;
-}
-
 .btn:hover {
     background: orange;
 }
 
 .btn:active {
-    transform: scale(.98);
+    transform: scale(.9);
 }
 
 .rules-btn {
