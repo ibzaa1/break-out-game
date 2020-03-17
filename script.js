@@ -25,7 +25,7 @@ const paddle = {
     y: canvas.height -20,
     w: 80,
     h   : 10,
-    speed: 8,
+    speed: 9,
     dx: 0
 }
 
@@ -33,7 +33,7 @@ const paddle = {
 const brickInfo = {
     w: 70,
     h: 20,
-    padding: 10,
+    padding: 12,
     offsetX: 45,
     offsetY: 60,
     visible: true,
@@ -85,8 +85,8 @@ function drawBricks() {
 
 // Draw score on canvas
 function drawScore() {
-    ctx.font = '20px Arial';
-    ctx.fillText(`Score: ${score}`, canvas.width - 100, 30);
+    ctx.font = '20px Righteous';
+    ctx.fillText(`Score: ${score}`, canvas.width - 120, 30);
   }
 
 // Move paddle on canvas
